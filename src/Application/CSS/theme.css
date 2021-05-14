@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+div.light-theme {
+  background-color: #f3f3f3;
+}
+
+div.light-theme p {
+  color: #8a8f98;
+}
+
+div.light-theme small {
+  color: #787882;
+}
+
+div.light-theme .bg-inv {
+  background-color: #1F2023;
+}
+
+div.light-theme .txt-1 {
+  color: #000000;
+}
+
+div.light-theme .txt-1-inv {
+  color: #ffffff;
+}
+
+div.light-theme .txt-2 {
+  color: #CFCFCF;
+}
+
+div.light-theme .txt-3 {
+  color: #8a8f98;
+}
+
+div.light-theme .txt-4 {
+  color: #787882;
+}
+
+div.light-theme .txt-5 {
+  color: #5d6168;
+}
+
+div.light-theme .h1,
+div.light-theme h1,
+div.light-theme .h2,
+div.light-theme h2,
+div.light-theme .h3,
+div.light-theme h3,
+div.light-theme .h4,
+div.light-theme h4,
+div.light-theme .h5,
+div.light-theme h5,
+div.light-theme .h6,
+div.light-theme h6 {
+  color: #000000;
+}
+
+div.light-theme .border {
+  border-color: #CFCFCF;
+}
+
+div.light-theme .border-color {
+  border-color: #9aa1b1;
+}
+
+div.light-theme .options-icon {
+  fill: #5d6168;
+}
+
+div.light-theme .modal-background {
+  background-color: #fafbfb;
+}
+
+div.light-theme .sidebar {
+  background-color: #fafbfb;
+}
+
+div.light-theme .bg-dark {
+  background-color: #f3f3f3;
+}
+
+div.dark-theme {
+  background-color: #1F2023;
+}
+
+div.dark-theme .modal-background {
+  background-color: #27282B;
+}
+
+div.dark-theme .bg-inv {
+  background-color: #f3f3f3;
+}
+
+div.dark-theme p {
+  color: #8a8f98;
+}
+
+div.dark-theme small {
+  color: #787882;
+}
+
+div.dark-theme .txt-1 {
+  color: #ffffff;
+}
+
+div.dark-theme .txt-1-inv {
+  color: #000000;
+}
+
+div.dark-theme .txt-2 {
+  color: #CFCFCF;
+}
+
+div.dark-theme .txt-3 {
+  color: #8a8f98;
+}
+
+div.dark-theme .txt-4 {
+  color: #787882;
+}
+
+div.dark-theme .txt-5 {
+  color: #5d6168;
+}
+
+div.dark-theme .h1,
+div.dark-theme h1,
+div.dark-theme .h2,
+div.dark-theme h2,
+div.dark-theme .h3,
+div.dark-theme h3,
+div.dark-theme .h4,
+div.dark-theme h4,
+div.dark-theme .h5,
+div.dark-theme h5,
+div.dark-theme .h6,
+div.dark-theme h6 {
+  color: #CFCFCF;
+}
+
+div.dark-theme .border {
+  border-color: #303236;
+}
+
+div.dark-theme .border-color {
+  border-color: #8a8f98;
+}
+
+div.dark-theme .wrapper-menu {
+  border-right: 1px solid #303236;
+}
+
+div.dark-theme .card-wrapper {
+  background-color: transparent;
+}
+
+div.dark-theme .options-icon {
+  fill: #5d6168;
+}
+
+div.dark-theme .badge-dark {
+  background-color: #27282B;
+  color: #9aa1b1;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  border: 1px solid #1F2023;
+}
+
+div.dark-theme .sidebar {
+  background-color: transparent;
+}
+
+div.dark-theme .tabs {
+  background-color: #27282B;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+div.dark-theme .tabs .tab {
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  color: #9aa1b1;
+}
+
+div.dark-theme .tabs .active {
+  background-color: #1F2023;
+  color: #CFCFCF;
+}
+
+div.dark-theme .tabs.tabs-rounded {
+  border-radius: 0.5rem;
+}
+
+div.dark-theme .bg-dark {
+  background-color: #27282B;
+}
+/*# sourceMappingURL=theme.css.map */

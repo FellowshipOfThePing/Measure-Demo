@@ -1,0 +1,43 @@
+.page-header {
+  width: 100%;
+
+  .header-title-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    .header-title {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      padding-left: 7px;
+      color: #27282b;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .header-description-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    .header-description {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #27282b;
+      white-space: nowrap;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

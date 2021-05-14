@@ -1,0 +1,42 @@
+.color-picker-button {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.color-picker-strip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  height: calc(20px * 2);
+  width: calc(30px * 7);
+  top: 25px;
+  background-color: #ffffff;
+  -webkit-box-shadow: -1px 4px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: -1px 4px 30px rgba(0, 0, 0, 0.15);
+}
+
+.color-option {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.emoji-picker-button {
+  cursor: pointer;
+}
+/*# sourceMappingURL=Pickers.css.map */

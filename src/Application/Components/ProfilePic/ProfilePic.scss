@@ -1,0 +1,21 @@
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.profile-picture-mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  opacity: 0;
+  font-size: 10px;
+  &:hover {
+    background-color: #b3a6a6;
+    opacity: .7;
+    cursor: pointer;
+  }
+}

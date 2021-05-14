@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;CACpB;;AAED,AACE,GADC,AAAA,WAAW,CACZ,SAAS,CAAC;EACR,gBAAgB,EAAE,OAAO;CAC1B;;AAGH,AACE,GADC,AAAA,YAAY,CACb,SAAS,CAAC;EACR,gBAAgB,EAAE,OAAO;CAC1B",
+    "sources": [
+        "BrandIcons.scss"
+    ],
+    "names": [],
+    "file": "BrandIcons.css"
+}

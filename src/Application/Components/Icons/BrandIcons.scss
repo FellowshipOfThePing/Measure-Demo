@@ -1,0 +1,17 @@
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.dark-theme {
+  .intercom {
+    background-color: #000000;
+  }
+}
+
+div.light-theme {
+  .intercom {
+    background-color: #ffffff;
+  }
+}

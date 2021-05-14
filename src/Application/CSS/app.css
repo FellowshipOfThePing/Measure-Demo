@@ -1,0 +1,14 @@
+body * {
+  line-height: 1.5;
+  margin: 0;
+}
+
+body {
+  line-height: inherit;
+}
+
+input {
+  border: none;
+  padding: 0;
+}
+/*# sourceMappingURL=app.css.map */

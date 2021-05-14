@@ -1,0 +1,119 @@
+$commandLineHeight: 300px;
+$searchBarHeight: 50px;
+
+.command-line-container {
+  width: 450px;
+  max-height: $commandLineHeight;
+
+  .command-line-body {
+    width: 100%;
+    max-height: $commandLineHeight;
+    background: #ffffff;
+    box-shadow: 0px 0px 75px rgba(145, 145, 145, 0.29);
+    border-radius: 10px;
+
+    .search-section {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: $searchBarHeight;
+      border-bottom: 1px solid #eef1f4;
+
+      .search-icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: $searchBarHeight;
+      }
+
+      .search-field-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        .search-field {
+          padding-right: 15px;
+          width: 100%;
+          font-family: Inter;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          color: #27282b;
+          &:focus {
+            outline: none;
+          }
+          &::placeholder {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            color: #90959d;
+          }
+        }
+      }
+    }
+
+    .results-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-height: calc(#{$commandLineHeight} - #{$searchBarHeight});
+      overflow-y: scroll;
+      padding: 5px 0px;
+    }
+  }
+}
+
+.cli-option-container {
+  width: 100%;
+  padding: 0px 10px;
+
+  .option-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+
+    &.active {
+      background-color: #f8f9fb;
+    }
+
+    .option-left {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .option-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10px;
+      }
+
+      .option-title {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        color: #3d424a;
+      }
+    }
+
+    .option-type {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      color: #3d424a;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+@import "../../CSS/global";
+
+div.dark-theme {
+  .search-bar {
+    background-color: #1f2023;
+    border: 1px solid #3c3f44;
+
+    .search-field {
+      color: #d7d8d8;
+      &::placeholder {
+        color: #5d6168;
+      }
+    }
+  }
+}
+
+div.light-theme {
+  .search-bar {
+    border: 1px solid $gray-1;
+
+    .search-field {
+      color: #d7d8d8;
+      &::placeholder {
+        color: #5d6168;
+      }
+    }
+  }
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 500px;
+  min-width: 255px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .search-button-container {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .search-field {
+    height: 100%;
+    width: calc(100% - 50px);
+    font-family: Inter;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      opacity: 1;
+    }
+  }
+}

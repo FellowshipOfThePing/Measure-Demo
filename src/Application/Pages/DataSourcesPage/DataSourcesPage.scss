@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+$pageVerticalPadding: 10px;
+$pageHorizontalPadding: 15px;
+
+.sources-page-container {
+  width: 100%;
+  height: 100%;
+  padding: $pageVerticalPadding $pageHorizontalPadding;
+  overflow: scroll;
+
+  .sources-page-body {
+    width: 100%;
+    padding-top: 5px;
+
+    .source-card-row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+}

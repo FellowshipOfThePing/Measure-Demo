@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+html,
+body,
+#root,
+.App,
+.fullscreen,
+.application-container {
+  height: 100%;
+}
+
+.application-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: normal;
+      -ms-flex-pack: normal;
+          justify-content: normal;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+  -ms-flex-line-pack: normal;
+      align-content: normal;
+  height: 100%;
+}
+
+.main-view-container {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.overflow-y {
+  overflow-y: scroll;
+}
+
+.workspace-badge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.workspace-title-container {
+  overflow: hidden;
+  padding: 0px 2px 0px 2px;
+}
+
+.workspace-title {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+/*# sourceMappingURL=application.css.map */

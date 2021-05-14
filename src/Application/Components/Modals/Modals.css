@@ -1,0 +1,315 @@
+.invite-modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 450px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.leave-modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 450px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+div.dark-theme .invite-modal-body,
+div.dark-theme .leave-modal-body {
+  background-color: #1f2023;
+  -webkit-box-shadow: -1px 4px 30px rgba(0, 0, 0, 0.54);
+          box-shadow: -1px 4px 30px rgba(0, 0, 0, 0.54);
+}
+
+div.light-theme .invite-modal-body,
+div.light-theme .leave-modal-body {
+  background-color: #ffffff;
+  -webkit-box-shadow: -1px 4px 30px rgba(206, 206, 206, 0.74);
+          box-shadow: -1px 4px 30px rgba(206, 206, 206, 0.74);
+}
+
+.modal-input-field-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 32px;
+  width: 275px;
+  border-radius: 4px;
+  border: 1px solid #dadada;
+  overflow: hidden;
+}
+
+.modal-input-field-container .modal-input-field {
+  width: 100%;
+  padding: 1px 0px 0px 10px;
+  font-size: 12px;
+  color: #27282b;
+  font-weight: 500;
+}
+
+.modal-input-field-container .modal-input-field:focus {
+  outline: none;
+}
+
+.modal-input-field-container .modal-input-field::-webkit-input-placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.modal-input-field-container .modal-input-field:-ms-input-placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.modal-input-field-container .modal-input-field::-ms-input-placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.modal-input-field-container .modal-input-field::placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.modal-dropdown-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 275px;
+}
+
+.modal-dropdown-container .dropdown-caption {
+  position: absolute;
+  top: -20px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  color: #b0b0b0;
+}
+
+.modal-dropdown-container .dropdown-selection-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 32px;
+  width: 100%;
+  padding: 0px 10px;
+  border-radius: 4px;
+  border: 1px solid #dadada;
+  cursor: pointer;
+}
+
+.modal-dropdown-container .dropdown-selection-container .selection-icon {
+  padding-right: 5px;
+  color: #fcfcfc;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.modal-dropdown-container .dropdown-selection-container .selection-title {
+  color: #27282b;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.modal-dropdown-container .dropdown-options-container {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  max-height: 125px;
+  border-radius: 4px;
+  overflow: scroll;
+  -webkit-box-shadow: 0px 4px 25px rgba(144, 144, 144, 0.25);
+          box-shadow: 0px 4px 25px rgba(144, 144, 144, 0.25);
+  background-color: #ffffff;
+  z-index: 1000;
+}
+
+.modal-dropdown-container .dropdown-options-container .dropdown-option {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.modal-dropdown-container .dropdown-options-container .dropdown-option:hover {
+  background-color: #f8f8f8;
+}
+
+.modal-dropdown-container .dropdown-options-container .dropdown-option .dropdown-option-icon {
+  padding: 5px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.modal-dropdown-container .dropdown-options-container .dropdown-option .dropdown-option-text {
+  color: #27282b;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.global-modal-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 1px 50px rgba(130, 130, 130, 0.25);
+          box-shadow: 0px 1px 50px rgba(130, 130, 130, 0.25);
+  padding: 12px 100px;
+  min-height: 175px;
+}
+
+.global-modal-container .modal-exit-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.global-modal-container .modal-title {
+  color: #27282b;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  margin: 20px 0px 10px 0px;
+  white-space: nowrap;
+}
+
+.global-modal-container .modal-subtitle {
+  color: #A6A6A6;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  margin: 0px 0px 10px 0px;
+  white-space: nowrap;
+}
+
+.global-modal-container .modal-input-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.global-modal-container .modal-submit-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff4062;
+  border-radius: 3px;
+  height: 35px;
+  width: 120px;
+  margin: 10px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.global-modal-container .modal-submit-button .modal-submit-text {
+  color: #fcfcfc;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+
+.global-modal-container .modal-footnote {
+  color: #7e7e7e;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=Modals.css.map */

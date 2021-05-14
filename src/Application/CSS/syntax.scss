@@ -1,0 +1,285 @@
+@import "./global";
+
+body {
+  font-family: Inter;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+span {
+  font-family: Inter;
+}
+p {
+  font-family: Inter;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+  color: $blue-2;
+  text-decoration: none;
+  background-color: transparent;
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+small {
+  font-size: 80%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.2;
+  color: $blue-4;
+}
+h1,
+.h1 {
+  font-size: 2.53rem;
+}
+
+h2,
+.h2 {
+  font-size: 2.13rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.73rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.47rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.3rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+.display-1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-2 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+small,
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+mark,
+.mark {
+  padding: 0.2em;
+  background-color: $white-7;
+}
+/*  small font css  */
+/*-----------------*/
+.font-small-1 {
+  font-size: 0.7rem !important;
+}
+
+.font-small-2 {
+  font-size: 0.8rem !important;
+}
+
+.font-small-3 {
+  font-size: 0.9rem !important;
+}
+
+/* medium font css */
+/*----------------*/
+.font-medium-1 {
+  font-size: 1.1rem !important;
+}
+
+.font-medium-2 {
+  font-size: 1.2rem !important;
+}
+
+.font-medium-3 {
+  font-size: 1.3rem !important;
+}
+
+.font-medium-4 {
+  font-size: 1.4rem !important;
+}
+
+.font-medium-5 {
+  font-size: 1.5rem !important;
+}
+
+/* large font css */
+/*---------------*/
+.font-large-1 {
+  font-size: 2rem !important;
+}
+
+.font-large-2 {
+  font-size: 3rem !important;
+}
+
+.font-large-3 {
+  font-size: 4rem !important;
+}
+
+.font-large-4 {
+  font-size: 5rem !important;
+}
+
+.font-large-5 {
+  font-size: 6rem !important;
+}
+
+/* Font weights */
+.text-bold-300 {
+  font-weight: 300;
+}
+
+.text-bold-400 {
+  font-weight: 400;
+}
+
+.text-bold-500 {
+  font-weight: 500;
+}
+
+.text-bold-600 {
+  font-weight: 600;
+}
+
+.text-bold-700 {
+  font-weight: 700;
+}
+
+/*   Font style   */
+/*---------------*/
+.text-italic {
+  font-style: italic;
+}
+
+.text-highlight {
+  padding: 4px 6px;
+}
+.text-gradient {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-wrap {
+  white-space: normal !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+table {
+  font-family: Inter;
+  border-collapse: collapse;
+}
+th {
+  text-align: inherit;
+}
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-responsive > .table-bordered {
+  border: 0;
+}
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: $gray-5;
+}
+
+.table th,
+.table td {
+  padding: 1.15rem 2rem;
+  vertical-align: top;
+  border-top: 1px solid $white-6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid $white-6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid $white-6;
+}

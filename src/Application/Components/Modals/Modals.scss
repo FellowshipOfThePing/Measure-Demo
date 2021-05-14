@@ -1,0 +1,215 @@
+.invite-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.leave-modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 200px;
+  border-radius: 6px;
+}
+
+div.dark-theme {
+  .invite-modal-body,
+  .leave-modal-body {
+    background-color: #1f2023;
+    box-shadow: -1px 4px 30px rgba(0, 0, 0, 0.54);
+  }
+}
+
+div.light-theme {
+  .invite-modal-body,
+  .leave-modal-body {
+    background-color: #ffffff;
+    box-shadow: -1px 4px 30px rgba(206, 206, 206, 0.74);
+  }
+}
+
+.modal-input-field-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 32px;
+  width: 275px;
+  border-radius: 4px;
+  border: 1px solid #dadada;
+  overflow: hidden;
+  .modal-input-field {
+    width: 100%;
+    padding: 1px 0px 0px 10px;
+    font-size: 12px;
+    color: #27282b;
+    font-weight: 500;
+    &:focus {
+      outline: none;
+    }
+    &::placeholder {
+      color: #bdbdbd;
+      font-size: 12px;
+    }
+  }
+}
+
+.modal-dropdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 275px;
+  .dropdown-caption {
+    position: absolute;
+    top: -20px;
+    align-self: flex-start;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #b0b0b0;
+  }
+  .dropdown-selection-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    width: 100%;
+    padding: 0px 10px;
+    border-radius: 4px;
+    border: 1px solid #dadada;
+    cursor: pointer;
+    .selection-icon {
+      padding-right: 5px;
+      color: #fcfcfc;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+    }
+    .selection-title {
+      color: #27282b;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+    }
+  }
+  .dropdown-options-container {
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    max-height: 125px;
+    border-radius: 4px;
+    overflow: scroll;
+    box-shadow: 0px 4px 25px rgba(144, 144, 144, 0.25);
+    background-color: #ffffff;
+    z-index: 1000;
+    .dropdown-option {
+      margin: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: #f8f8f8;
+      }
+      .dropdown-option-icon {
+        padding: 5px;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 12px;
+      }
+      .dropdown-option-text {
+        color: #27282b;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.global-modal-container {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 1px 50px rgba(130, 130, 130, 0.25);
+  padding: 12px 100px;
+  min-height: 175px;
+
+  .modal-exit-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  .modal-title {
+    color: #27282b;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    white-space: nowrap;
+  }
+
+  .modal-subtitle {
+    color: #A6A6A6;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    white-space: nowrap;
+  }
+
+  .modal-input-section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px 0px;
+  }
+
+  .modal-submit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff4062;
+    border-radius: 3px;
+    height: 35px;
+    width: 120px;
+    margin: 10px 0px 20px 0px;
+    cursor: pointer;
+    .modal-submit-text {
+      color: #fcfcfc;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+  .modal-footnote {
+    color: #7e7e7e;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;
+  }
+}

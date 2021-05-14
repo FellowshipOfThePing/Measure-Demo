@@ -1,0 +1,262 @@
+.sidebar-body {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  padding: 15px;
+  border: 1px solid #d3d3d3;
+  overflow-x: visible;
+  min-height: 550px;
+}
+
+.editor-section {
+  width: 100%;
+  padding: 7px 0px;
+}
+
+.editor-section .widget-button {
+  cursor: pointer;
+  margin: 0px 5px 1px 0px;
+  color: #BCBCBC;
+}
+
+.editor-section .widget-button:hover {
+  color: #a3a2a2;
+}
+
+.widget-editor-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #27282b;
+}
+
+.header-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 38px;
+}
+
+.header-section .icon-button-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  width: 38px;
+  height: 100%;
+  padding-right: 4px;
+}
+
+.header-section .title-field-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 38px);
+  height: 100%;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+  overflow: hidden;
+}
+
+.header-section .title-field-section .title-field {
+  padding-left: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  width: 100%;
+}
+
+.header-section .title-field-section .title-field:focus {
+  outline: none;
+}
+
+.header-section .title-field-section .title-field::-webkit-input-placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.header-section .title-field-section .title-field:-ms-input-placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.header-section .title-field-section .title-field::-ms-input-placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.header-section .title-field-section .title-field::placeholder {
+  color: #bdbdbd;
+  font-size: 12px;
+}
+
+.option-button-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.option-button-container .caption-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.option-button-container .caption-container .caption {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #27282b;
+  text-transform: uppercase;
+}
+
+.option-button-container .content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-radius: 3px;
+}
+
+.option-button-container .content-container .content-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.option-button-container .content-container .content-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.option-button-container .content-container .content-title-container .content-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.option-button-container .content-container .search-icon-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.option-button-container .content-container .search-icon-container .search-icon {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.create-widget-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #615efb;
+  border-radius: 3px;
+  height: 35px;
+  width: 120px;
+  margin: 10px 0px 20px 0px;
+  cursor: pointer;
+}
+
+.create-widget-button .create-widget-text {
+  color: #fcfcfc;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+/*# sourceMappingURL=Sidebar.css.map */

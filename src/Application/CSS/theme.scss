@@ -1,0 +1,156 @@
+@import "./global";
+
+div.light-theme {
+  background-color: $white-3;
+  p {
+    color: $gray-3;
+  }
+  small {
+    color: $gray-4;
+  }
+  .bg-inv {
+    background-color: $black-2;
+  }
+  .txt-1 {
+    color: $black-1;
+  }
+  .txt-1-inv {
+    color: $white-1;
+  }
+  .txt-2 {
+    color: $gray-1;
+  }
+  .txt-3 {
+    color: $gray-3;
+  }
+  .txt-4 {
+    color: $gray-4;
+  }
+  .txt-5 {
+    color: $gray-7;
+  }
+  .h1,
+  h1,
+  .h2,
+  h2,
+  .h3,
+  h3,
+  .h4,
+  h4,
+  .h5,
+  h5,
+  .h6,
+  h6 {
+    color: $black-1;
+  }
+  .border {
+    border-color: $gray-1;
+  }
+  .border-color {
+    border-color: $gray-2;
+  }
+  .options-icon {
+    fill: $gray-7;
+  }
+  .modal-background {
+    background-color: $white-4;
+  }
+  .sidebar{
+    background-color: $white-4;
+  }
+  .bg-dark{
+    background-color: $white-3;
+  }
+}
+
+div.dark-theme {
+  background-color: $black-2;
+  .modal-background {
+    background-color: $black-3;
+  }
+  .bg-inv {
+    background-color: $white-3;
+  }
+  p {
+    color: $gray-3;
+  }
+  small {
+    color: $gray-4;
+  }
+  .txt-1 {
+    color: $white-1;
+  }
+  .txt-1-inv {
+    color: $black-1;
+  }
+  .txt-2 {
+    color: $gray-1;
+  }
+  .txt-3 {
+    color: $gray-3;
+  }
+  .txt-4 {
+    color: $gray-4;
+  }
+  .txt-5 {
+    color: $gray-7;
+  }
+  .h1,
+  h1,
+  .h2,
+  h2,
+  .h3,
+  h3,
+  .h4,
+  h4,
+  .h5,
+  h5,
+  .h6,
+  h6 {
+    color: $gray-1;
+  }
+  .border {
+    border-color: $black-4;
+  }
+  .border-color {
+    border-color: $gray-3;
+  }
+  .wrapper-menu {
+    border-right: 1px solid $black-4;
+  }
+  .card-wrapper {
+    background-color: transparent;
+  }
+  .options-icon {
+    fill: $gray-7;
+  }
+  .badge-dark {
+    background-color: $black-3;
+    color: $gray-2;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    border: 1px solid $black-2;
+  }
+  .sidebar{
+    background-color: transparent;
+  }
+  .tabs{
+    background-color: $black-3;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    .tab{
+      margin: 0.5rem;
+      border-radius: 0.5rem;
+      color: $gray-2;
+    }
+    .active{
+      background-color: $black-2;
+      color: $gray-1;
+    }
+  }
+  .tabs.tabs-rounded{
+    border-radius: 0.5rem;
+  }
+  .bg-dark{
+    background-color: $black-3;
+  }
+}

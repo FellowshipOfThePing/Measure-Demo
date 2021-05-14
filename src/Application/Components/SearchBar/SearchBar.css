@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+div.dark-theme .search-bar {
+  background-color: #1f2023;
+  border: 1px solid #3c3f44;
+}
+
+div.dark-theme .search-bar .search-field {
+  color: #d7d8d8;
+}
+
+div.dark-theme .search-bar .search-field::-webkit-input-placeholder {
+  color: #5d6168;
+}
+
+div.dark-theme .search-bar .search-field:-ms-input-placeholder {
+  color: #5d6168;
+}
+
+div.dark-theme .search-bar .search-field::-ms-input-placeholder {
+  color: #5d6168;
+}
+
+div.dark-theme .search-bar .search-field::placeholder {
+  color: #5d6168;
+}
+
+div.light-theme .search-bar {
+  border: 1px solid #CFCFCF;
+}
+
+div.light-theme .search-bar .search-field {
+  color: #d7d8d8;
+}
+
+div.light-theme .search-bar .search-field::-webkit-input-placeholder {
+  color: #5d6168;
+}
+
+div.light-theme .search-bar .search-field:-ms-input-placeholder {
+  color: #5d6168;
+}
+
+div.light-theme .search-bar .search-field::-ms-input-placeholder {
+  color: #5d6168;
+}
+
+div.light-theme .search-bar .search-field::placeholder {
+  color: #5d6168;
+}
+
+.search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 500px;
+  min-width: 255px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-bar .search-button-container {
+  height: 100%;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+}
+
+.search-bar .search-field {
+  height: 100%;
+  width: calc(100% - 50px);
+  font-family: Inter;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+}
+
+.search-bar .search-field:focus {
+  outline: none;
+}
+
+.search-bar .search-field::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.search-bar .search-field:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.search-bar .search-field::-ms-input-placeholder {
+  opacity: 1;
+}
+
+.search-bar .search-field::placeholder {
+  opacity: 1;
+}
+/*# sourceMappingURL=SearchBar.css.map */

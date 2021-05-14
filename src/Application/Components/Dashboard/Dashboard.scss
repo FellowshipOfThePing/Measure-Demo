@@ -1,0 +1,17 @@
+.empty-dashboard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  cursor: pointer;
+
+  .empty-dashboard-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #90959d;
+    padding: 5px 0px;
+  }
+}

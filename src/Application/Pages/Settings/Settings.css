@@ -1,0 +1,123 @@
+.settings-page-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px;
+  overflow: scroll;
+}
+
+.account-settings-page,
+.workspace-settings-page {
+  width: 100%;
+  height: 100%;
+  min-width: 400px;
+  position: relative;
+}
+
+.account-settings-page .personal-info-section,
+.workspace-settings-page .personal-info-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.account-settings-page .personal-info-section .profile-picture-section,
+.workspace-settings-page .personal-info-section .profile-picture-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.account-settings-page .account-info-section,
+.workspace-settings-page .account-info-section {
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.account-settings-page .prefs-section,
+.workspace-settings-page .prefs-section {
+  width: 100%;
+}
+
+.account-settings-page .prefs-section .theme-section,
+.workspace-settings-page .prefs-section .theme-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80px;
+  height: 35px;
+}
+
+.workspace-settings-page .members-section {
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.workspace-settings-page .members-section .members-section-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.workspace-settings-page .members-section .invite-team-member-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  background-color: transparent;
+}
+
+.workspace-settings-page .members-section .invite-team-member-container .invite-text {
+  color: #5d6168;
+  cursor: pointer;
+}
+
+.danger-zone .danger-buttons {
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=Settings.css.map */

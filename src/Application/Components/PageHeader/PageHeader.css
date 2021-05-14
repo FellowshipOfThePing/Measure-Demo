@@ -1,0 +1,64 @@
+.page-header {
+  width: 100%;
+}
+
+.page-header .header-title-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.page-header .header-title-section .header-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 7px;
+  color: #27282b;
+}
+
+.page-header .header-title-section .header-title:focus {
+  outline: none;
+}
+
+.page-header .header-description-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.page-header .header-description-section .header-description {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #27282b;
+  white-space: nowrap;
+}
+
+.page-header .header-description-section .header-description:focus {
+  outline: none;
+}
+/*# sourceMappingURL=PageHeader.css.map */
